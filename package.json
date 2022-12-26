@@ -1,0 +1,15 @@
+{
+  "name": "test-links",
+  "version": "1.0.0",
+  "description": "this app tests links in a file and returns its status.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adriano Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
