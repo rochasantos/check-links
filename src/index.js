@@ -7,7 +7,7 @@ const extractLinks = (text) => {
     return linksExtracted;
 }
 
-const getFile = async (path) => {
+const readFile = async (path) => {
     try {
         const encoding = 'utf-8';
         const result = await fs.promises.readFile(path, encoding);
@@ -17,4 +17,4 @@ const getFile = async (path) => {
     }
 }
 
-export default getFile;
+export default readFile;
