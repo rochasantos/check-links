@@ -11,19 +11,19 @@ This application aims to check a list of links, in a file or in several files in
 
 ## :hammer: Funcionalidades do projeto
 - `List the links in a text file`: List all links in a text file (txt, pdf, md, among others). For that, you must type the command below.
-  ```
+  ```sh
   npm run cli _file-address_
   ```
 - `List the links in a diretory`: Lists all the links that are in the text files of a directory. For that, you must type the command below.
-  ```
+  ```sh
   npm run cli _diretory-address_
   ```
 - `Check links in a text file`: Checks all the links that are in a text file. For that, you must type the command below.
-  ```
+  ```sh
   npm run cli:validate _file-address_
   ```
 - `Check the links in a diretory`: Checks all the links that are in the text files of a directory. For that, you must type the command below.
-  ```
+  ```sh
   npm run cli:validate _diretory-address_
   ```
   
